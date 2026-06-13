@@ -3,6 +3,7 @@ This is a live patcher version of R36S DarkOS CPU Overclock and R36S DarkOS Extr
 ex. DTB="rk3326-r36s-linux.dtb"
 
 It also makes the necessary edits to /boot/boot.ini to enable easy changes.
+
 The default is set to 1368 Mhz
 
 Change your overclock speed by editing /boot/boot.ini, find `max_cpufreq=1368` in the bootarg line and change to any valid value.
